@@ -16,7 +16,8 @@ Overall, concurrency in Swift is essential for building efficient and responsive
 + Uses URLSession to perform network requests, in order to fetch data from the web.
 + Utilizes DispatchQueue to intentionally switch between main and background thread.
 + Shows different ways to write concurrent code: Completion Handler, async/await, Combine Framework. The app also illustrates how a task works.
-+ Implements a simple user interface to display the fetched data, that are images.
++ Error Handling.
++ Implements a simple user interface to display the fetched data, that consists of images.
 
 ## Usage
 + Launch the app on your device or simulator.
