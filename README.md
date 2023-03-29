@@ -18,6 +18,7 @@ Overall, concurrency in Swift is essential for building efficient and responsive
 + Shows different ways to write concurrent code: Completion Handler, async/await, Combine Framework. The app also illustrates how a task works.
 + Error Handling.
 + Implements a simple user interface to display the fetched data, that consists of images.
++ Uses a `while` cycle to perform a task that loads images in an infinite ScrollView.
 
 ## Usage
 + Launch the app on your device or simulator.
