@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131DE9A529D2C56400E22F2F /* DownloadImageCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131DE9A429D2C56400E22F2F /* DownloadImageCombine.swift */; };
+		131DE9A729D2FAB100E22F2F /* DownloadImageAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131DE9A629D2FAB100E22F2F /* DownloadImageAsyncAwait.swift */; };
+		131DE9AB29D3542D00E22F2F /* DownloadImageAsyncTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131DE9AA29D3542D00E22F2F /* DownloadImageAsyncTaskGroup.swift */; };
 		13534ED829D1A6A700D4B241 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13534ED729D1A6A700D4B241 /* SwiftConcurrencyApp.swift */; };
-		13534EDA29D1A6A700D4B241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13534ED929D1A6A700D4B241 /* ContentView.swift */; };
+		13534EDA29D1A6A700D4B241 /* DownloadImageCompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13534ED929D1A6A700D4B241 /* DownloadImageCompletionHandler.swift */; };
 		13534EDC29D1A6A700D4B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13534EDB29D1A6A700D4B241 /* Assets.xcassets */; };
 		13534EDF29D1A6A700D4B241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13534EDE29D1A6A700D4B241 /* Preview Assets.xcassets */; };
+		1378648629D4A4EE0047900C /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378648529D4A4EE0047900C /* InfiniteScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131DE9A429D2C56400E22F2F /* DownloadImageCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageCombine.swift; sourceTree = "<group>"; };
+		131DE9A629D2FAB100E22F2F /* DownloadImageAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncAwait.swift; sourceTree = "<group>"; };
+		131DE9AA29D3542D00E22F2F /* DownloadImageAsyncTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncTaskGroup.swift; sourceTree = "<group>"; };
 		13534ED429D1A6A600D4B241 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13534ED729D1A6A700D4B241 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
-		13534ED929D1A6A700D4B241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13534ED929D1A6A700D4B241 /* DownloadImageCompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageCompletionHandler.swift; sourceTree = "<group>"; };
 		13534EDB29D1A6A700D4B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13534EDE29D1A6A700D4B241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1378648529D4A4EE0047900C /* InfiniteScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				13534ED729D1A6A700D4B241 /* SwiftConcurrencyApp.swift */,
-				13534ED929D1A6A700D4B241 /* ContentView.swift */,
+				13534ED929D1A6A700D4B241 /* DownloadImageCompletionHandler.swift */,
+				131DE9A429D2C56400E22F2F /* DownloadImageCombine.swift */,
+				131DE9A629D2FAB100E22F2F /* DownloadImageAsyncAwait.swift */,
+				131DE9AA29D3542D00E22F2F /* DownloadImageAsyncTaskGroup.swift */,
+				1378648529D4A4EE0047900C /* InfiniteScrollView.swift */,
 				13534EDB29D1A6A700D4B241 /* Assets.xcassets */,
 				13534EDD29D1A6A700D4B241 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13534EDA29D1A6A700D4B241 /* ContentView.swift in Sources */,
+				13534EDA29D1A6A700D4B241 /* DownloadImageCompletionHandler.swift in Sources */,
 				13534ED829D1A6A700D4B241 /* SwiftConcurrencyApp.swift in Sources */,
+				131DE9AB29D3542D00E22F2F /* DownloadImageAsyncTaskGroup.swift in Sources */,
+				1378648629D4A4EE0047900C /* InfiniteScrollView.swift in Sources */,
+				131DE9A529D2C56400E22F2F /* DownloadImageCombine.swift in Sources */,
+				131DE9A729D2FAB100E22F2F /* DownloadImageAsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
