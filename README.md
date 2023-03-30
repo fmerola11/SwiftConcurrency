@@ -1,6 +1,4 @@
 # SwiftConcurrency
-[SwiftConcurrency.pdf](https://github.com/fmerola11/SwiftConcurrency/files/11113561/SwiftConcurrency.pdf)
-
 This project is an example of how to use concurrency in Swift. The app uses the URLSession API to fetch data from a remote API and display it in the user interface. Concurrency is the ability of a programming language to execute multiple tasks or processes concurrently. Swift, being a modern programming language, has built-in support for concurrency, which allows developers to write more efficient and responsive code. Concurrency in Swift is important for several reasons:
 + Performance: by allowing multiple tasks to execute concurrently, Swift can take advantage of modern multi-core processors, which can significantly improve the performance of your application.
 + Responsiveness: concurrency can improve the responsiveness of your application by allowing it to perform multiple tasks at the same time, such as responding to user input while performing background tasks.
