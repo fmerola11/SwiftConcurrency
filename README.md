@@ -32,3 +32,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 This project was inspired by the Swift concurrency documentation and various online resources on using concurrency in Swift.
+
+## Personal Comment
+Each file, except the last, is made up of a Data Loader, a View Model, and a View. I volunterly put all them in one file, because this project is meant to be just a basic guide.
