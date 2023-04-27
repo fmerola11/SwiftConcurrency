@@ -28,7 +28,7 @@ Overall, concurrency in Swift is essential for building efficient and responsive
 Each file in the app is related to a specific mode to write concurrent code and fetch data from the network. I recommend to read the files in this order: DownloadImageCompletionHandler, DownloadImageCombine, DownloadImageAsyncAwait, DownloadImageAsyncTaskGroup, InfiniteScrollView. The code is documented 🗂️
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache-2.0 License - see the LICENSE file for details.
 
 ## Acknowledgments
 This project was inspired by the Swift concurrency documentation and various online resources on using concurrency in Swift.
